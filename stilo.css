@@ -1,0 +1,63 @@
+body{
+margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+}
+.video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+.info
+{
+    height: 8vh;
+    position: center;
+}
+
+.info>p
+{
+    position: absolute;
+    margin: 0px;
+    top: -0.5%;
+    color: rgb(55, 236, 227);
+    font-size:3.8vw;
+    font-family: Fantasy;
+
+}
+
+.info>p>span
+{
+    color: LightGreen;
+}
+
+.game-window
+{
+    border: 10px Solid rgb(51, 52, 138);
+    height: 89vh
+}
+
+#player
+{
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+    height: 37px;
+    width: 5vw;
+}
+
+.meta>div
+{
+    position: absolute;
+    background-color: rgb(51, 255, 0);
+    height: 37px;
+    width: 5vw;
+    top: 9vh;
+    border: 2px Solid rgb(152, 218, 29);
+    margin: 0px;    
+}
